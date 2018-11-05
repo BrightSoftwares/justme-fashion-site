@@ -1,13 +1,13 @@
-title: Jekyll-Store
-description: 'A lightweight, backend-free ecommerce solution.'
+title: JustMe Fashion
+description: 'The best products at hand.'
 baseurl: /front
-url: 'http://www.jekyll-store.com'
+url: 'http://www.justme-fashion.com'
 
 # Jekyll-Store Engine
 defaultAddress:
-  country: GB
+  country: TG
 payment:
-  currency: GBP
+  currency: XOF
   hook: 'https://jekyll-store-microservice.herokuapp.com/purchase'
 tracking_id: 'UA-62379004-1'
 
@@ -19,10 +19,10 @@ disqus_shortname: 'jekyll-store'
 
 # http://openexchangerates.github.io/accounting.js/#documentation
 accounting:
-  symbol : '£'
-  format: '%s%v'
-  decimal : '.'
-  thousand: ','
+  symbol : 'FCFA'
+  format: '%v %s'
+  decimal : ','
+  thousand: '.'
   precision : 2
 
 # https://github.com/prose/prose/wiki/Prose-Configuration
@@ -50,7 +50,7 @@ prose:
       - name: price
         field:
           element: number
-          label: 'Price (£)'
+          label: 'Price (FCFA)'
       - name: weight
         field:
           element: number
